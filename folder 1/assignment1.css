@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    width:1200px;
+    margin:auto;
+}
+
+header{
+    background:#f9f6f6;
+    padding:20px;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+    color:#333;
+    display:inline-block;
+}
+
+.signup-btn{
+    float:right;
+    background:#0d6efd;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    font-size:16px;
+}
+
+.hero{
+    height:550px;
+    background-image:url("https://images.unsplash.com/photo-1536782376847-5c9d14d97cc0?fm=jpg&q=60&w=3000&auto=format&fit=crop");
+    background-size:cover;
+    text-align:center;
+}
+
+.overlay{
+    padding-top:180px;
+}
+
+.overlay h1{
+    color:white;
+    font-size:40px;
+    margin-bottom:30px;
+}
+
+.email-box{
+    text-align:center;
+}
+
+.email-box input{
+    width:400px;
+    padding:15px;
+    font-size:18px;
+}
+
+.email-box button{
+    padding:15px 25px;
+    background:#0d6efd;
+    color:white;
+    border:none;
+    font-size:18px;
+}
+
+.features{
+    background:#f8f9fa;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.feature{
+    width:30%;
+    display:inline-block;
+    vertical-align:top;
+}
+
+.icon-box{
+    font-size:80px;
+    color:#0d6efd;
+    margin-bottom:20px;
+}
+
+.feature h2{
+    font-size:28px;
+    color:#212529;
+    margin-bottom:10px;
+}
+
+.feature p{
+    font-size:18px;
+    color:#6c757d;
+}
